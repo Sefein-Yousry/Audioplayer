@@ -1,33 +1,17 @@
-span {
-    font-size: xx-large;
-    color: black;
-    font-weight: bold;
+* {
+    background-color: black;
+    color: rgb(156, 2, 2);
 }
 
-.contact {
-    margin-left: 50px;
-    color: gray;
-    font-size: large;
-    float: left;
+table {
+    border: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    border-style: double;
 }
 
-.img {
-    float: right;
-    margin-right: 200px;
-}
-
-.clear {
-    clear: both;
-}
-
-.titles {
-    font-size: larger;
-    color: green;
-    font-weight: bold;
-}
-
-.text {
-    font-size: x-large;
-    margin-left: 100px;
-    margin-top: 0px;
+th,
+td {
+    border-style: groove;
+    padding-right: 20px;
 }
